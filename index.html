@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Chuck文件管理系统</title>
+
+  <!-- Set render engine for 360 browser -->
+  <meta name="renderer" content="webkit">
+
+  <!-- No Baidu Siteapp-->
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+  <link rel="icon" type="image/icon" href="i/favicon.ico">
+
+  <!-- Amaze UI CSS -->
+  <link rel="stylesheet" href="lib/amazeui/css/amazeui.min.css">
+	<!-- 自己的css -->
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="am-g am-g-fixed doc-am-g">
+<div class="am-u-sm-centered am-u-sm-5">
+	<div class="am-g">
+	 <div class="am-u-sm-12 " id = "loginTitle">
+	 	<img src="i/login.png" alt="Chuck文件管理系统">
+	 </div>
+	 <div class="am-u-sm-12 loginbox">
+	 	<form action="action" method="POST" role="form" class="am-form">
+	 	<div class="am-input-group">
+	 	  <span class="am-input-group-label"><i class="am-icon-user am-icon-fw"></i></span>
+	 	  <input id = "loginUserName" type="text" class="am-form-field" placeholder="用户名">
+	 	</div>
+
+	 	<div class="am-input-group ">
+	 	  <span class="am-input-group-label"><i class="am-icon-lock am-icon-fw"></i></span>
+	 	  <input type="password" id = "loginPassWord"  class="am-form-field" placeholder="密码">
+	 	</div>
+ 		<div class="am-input-group am-form-error">
+		<label id="loginState"class="am-form-label" for="doc-ipt-error"></label>
+	 	</div>
+	 	<hr/>
+	 	  <div id ="loginBtn" class="am-btn am-btn-primary am-btn-block ">登录</div>
+	 	  <div  class="am-btn am-btn-primary am-btn-block registerBtn"  data-am-modal="{target: '#regPopUp'}">注册</div>
+	 	  <div  id = "initBtn"class="am-btn am-btn-danger am-btn-block am-btn-xs"  >还原数据到默认状态</div>
+	 	</form>
+	 </div>
+	</div>
+
+</div>
+</div>
+
+<!-- 以下为弹出框内容 -->
+<div class="am-popup" id="regPopUp">
+    <div class="am-popup-inner">
+      <div class="am-popup-hd">
+        <h4 class="am-popup-title">注册</h4>
+        <span data-am-modal-close
+              class="am-close">&times;</span>
+      </div>
+      <div class="am-popup-bd regPlace">
+        <form  method="POST" role="form" class="am-form">
+          	  <div class="am-form-group">
+          	       <label for="doc-ipt-text-1">用户名</label>
+          	       <input type="text" class="" id="regUserName" placeholder="设置个用户名吧">
+          	     </div>
+
+          	     <div class="am-form-group">
+          	       <label for="doc-ipt-pwd-1">密码</label>
+          	       <input type="password" class="" id="regPassWord" placeholder="设置个密码吧">
+          	     </div>
+          	     <div class="am-input-group am-form-error">
+					<label class="am-form-label " for="doc-ipt-error" id="regState"></label>
+	 			</div>
+ 			<div class="am-g am-cf">
+ 			<div class="am-btn am-btn-primary am-fr" id="regSubmitBtn">确定</div>
+            <div data-am-modal="{target: '#regPopUp'}"class="am-btn am-btn-secondary am-fr " id="regCloseBtn">关闭</div>	
+ 			</div>        
+        </form>
+      </div>
+    </div>
+  </div>
+
+<script src="lib/jquery.min.js"></script>
+<script src="lib/amazeui/js/amazeui.min.js"></script>
+
+<!-- 自己的js -->
+<script src="js/js.js"></script>
+
+</body>
+</html>
