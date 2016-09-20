@@ -1,0 +1,192 @@
+body{
+	background-color: #eee;
+	cursor:default;
+}
+html,body{
+    margin:0px;
+    height:100%;
+    overflow: hidden;
+}
+/*.doc-am-g{
+	border: #f2f solid 1px;
+}
+.doc-am-g *{
+	border: #f2f solid 1px;
+}*/
+#loginTitle{
+	margin-top: 200px;
+	margin-bottom: 70px;
+}
+#loginTitle img{
+	margin-left: 35px;
+}
+.loginBtn{
+	margin-top: 20px;
+}
+#initBtn{
+	height: 15px;
+	padding: 0;
+	border-radius: 5px;
+	width: 35%;
+	margin-left: 65%;
+}
+#regPopUp{
+	 width: 500px; 
+     height: 320px; 
+     left: 50%; 
+     top: 50%; 
+     margin-left: -250px; 
+     margin-top: -160px; 
+ }
+ #regPopUp .regPlace{
+ 	height: 100%;
+ }
+  #regPopUp .am-btn{
+  	margin-right: 10px;
+  }
+/*以下为登录后页面*/
+#userName{
+	margin-top: 10px;
+	font-size: 1.2em;
+}
+#exit button{
+	font-size: 1em;
+	background-color: #3a3a3a;
+	border-color: #252424
+}
+#exit button:hover{
+	background-color: #292828;
+	border-color: #252424
+}
+.am-topbar-brand{
+	line-height: 28.8px;
+}
+
+.am-topbar-brand > a >img {
+	margin-top: 0;
+	padding-top: 0;
+	height: 50px;
+}
+.Header{
+	background-color: #333;
+	border-color: #333;
+	margin-bottom:0;
+}
+.functionBtn{
+	background-color: inherit;
+	text-align: left;
+	text-indent: 1em;
+	outline-style:none;
+} 
+.functionBtn:focus{
+	outline-style:none;
+	}   
+.functionBtn:hover{
+	background-color: #f1f1f2;
+}
+/*左分栏*/
+.left{
+	height: 1000px;
+	border-right:1px solid #eee;
+}
+.am-panel-hd{
+	text-align: center;
+	font-size: 1.1em;
+	border-bottom-style: none;
+
+}
+.am-panel{
+	margin-bottom: 0;
+	border-style: none;
+}
+#storgeInformation .am-progress{
+	margin-bottom: 0;
+}
+
+/*右分栏*/
+.am-breadcrumb{
+	background-color: #fff;
+	border:1px solid #eee;
+	margin-bottom:0;
+	margin-top: 0;
+}
+.am-table{
+	background-color: #fff;
+}
+.colorFolder,.colorTXT{
+	color: #edbe56;
+	margin-right: 5px;
+}
+.colorTXT{
+	color: #646262;
+}
+.colorUnlock{
+	color:#b6b4b4;
+	margin-left: 25px;
+}
+.colorLock{
+	color:#edbe56;
+	margin-left: 25px;
+}
+.checkbox{
+	/*text-align: center;*/
+	width:20px;
+}
+.lockStateTitle{
+	width:80px;
+}
+
+tr{
+	moz-user-select: -moz-none;
+	-moz-user-select: none;
+	-o-user-select:none;
+	-khtml-user-select:none;
+	-webkit-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+
+}
+#fileTable tbody{
+	height: 50%;
+	overflow: auto;
+}
+/*弹出框*/
+#editPopUp{
+	 width: 630px; 
+     height: 500px; 
+     left: 50%; 
+     top: 50%; 
+     margin-left: -315px; 
+     margin-top: -250px; 
+}
+.editAreaPlace,.storgePlace{
+	height: 100%;
+}
+.editArea{
+	height: 350px !important;
+}
+#strogePopUp{
+	 width: 630px; 
+     height: 500px; 
+     left: 50%; 
+     top: 50%; 
+     margin-left: -315px; 
+     margin-top: -250px; 
+}
+.am-progress{
+	margin-bottom: 0;
+}
+.storgeLi .am-u-sm-3{
+	text-align: center;
+}
+.storgeLi .am-u-sm-9{
+	padding: 0;
+}
+.storgePlace .am-panel .area{
+	margin-right: 20px;
+
+}
+.storgePlace{
+	overflow: auto;
+	overflow-x:hidden;
+}
