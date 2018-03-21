@@ -1,0 +1,11 @@
+数据库：MYSQL 5.1
+后台：PHP 5.6
+前端：HTML5+CSS3+Javascript
+服务器架设：Apache/2.2.25 
+操作系统：Windows8 64位
+
+
+1.先配置搭建好环境
+2.将所有文件放入APACHE的htdocs文件夹中
+3.建立MYSQL本地数据库，账号ROOT，密码ROOT，建立数据库file_system,导入目录下的sql文件
+4.打开index.html,开始使用
